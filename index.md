@@ -25,13 +25,14 @@ title: Portfolio - Tyler Groat
     <li>Git</li>
 </ul>
 <h2>Projects</h2>
-<ul>
-    <li>
+
+        <section id="project1">
         <h3>Project 1</h3>
         <p>description here</p>
-    </li>
-    <li>
+        </section>
+        <hr>
+        <section id="project2">
         <h3>Project 2</h3>
         <p>description here</p>
-    </li>
-</ul>
+        </section>
+    
