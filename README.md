@@ -1,2 +1,2 @@
-# tylergroat.github.io
-My github pages portfolio
+# [tylergroat.github.io](https://tylergroat.github.io)
+My GitHub Pages portfolio
