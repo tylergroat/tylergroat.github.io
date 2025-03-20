@@ -5,6 +5,9 @@ title: Portfolio - Tyler Groat
 
 <h1>Portfolio - Tyler Groat</h1>
 <a href="https://github.com/tylergroat">My GitHub Account: @tylergroat</a>
+<nav>
+Jump to: <a href="#project1">Project 1</a> <a href="#project2">Project 2</a> <a href="#aboutme">About Me</a> <a href="#tools">Techs</a>
+</nav>
 <h2>Projects</h2>
 
 <section id="project1">
@@ -20,6 +23,7 @@ title: Portfolio - Tyler Groat
 <section id="aboutme">
 <h2>About Me</h2>
 <!-- <p>resume download link here, and typed out in short</p> -->
+<section id="tools">
 <h2>Languages/Frameworks/Tools featured in my projects or used otherwise:</h2>
 <!-- Grid layout, on click make a description show up under, make it look nice and subtle -->
 <ul>
