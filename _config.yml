@@ -1,6 +1,5 @@
 title: Developer Portfolio - Tyler Groat
-# description: >- # this means to ignore newlines until "baseurl:"
-#   This is my personal portfolio site.
+description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tylergroat.github.io" # the base hostname & protocol for your site
 
