@@ -3,22 +3,23 @@ layout: default
 title: Portfolio - Tyler Groat
 ---
 
+<nav>
+Jump to: <a href="#project1">Project 1</a> <a href="#project2">Project 2</a> <a href="#aboutme">About Me</a>
+</nav>
 <h1>Portfolio - Tyler Groat</h1>
 <a href="https://github.com/tylergroat" target="_blank">My GitHub Account: @tylergroat</a>
-<nav>
-Jump to: <a href="#project1">Project 1</a> <a href="#project2">Project 2</a> <a href="#aboutme">About Me</a> <a href="#tools">Techs</a>
-</nav>
-<h2>Projects</h2>
 
 <section id="project1">
-        <h3>Project 1 - Recipeal</h3>
+        <h2>Project 1 - Recipeal</h2>
         <!-- make the view on github link a button the same as the ones in the header -->
         <p><a href="https://github.com/tylergroat/Recipeal" target="_blank">View on GitHub</a></p> 
         </section>
 <hr>
 <section id="project2">
-        <h3>Project 2</h3>
-        <p>description here</p>
+        <h2>Project 2 - SoundLogics</h2>
+        <p><a href="https://soundlogic.tech/" target="_blank">Visit SoundLogic.tech</a></p>
+        <h4>About SoundLogics</h4>
+        <p>Sound Logics is a company that develops advanced sound detection technology to enhance school safety. Their system monitors the acoustic environment within school premises, instantly recognizing and differentiating between normal classroom sounds and potential threats. Upon detecting unusual sounds, it sends instant alerts to designated security personnel, enabling swift responses. Additionally, the technology provides valuable data insights into school and classroom safety, aiding in optimizing learning environments and offering district-level safety metrics. To learn more, visit their website: <a href="https://soundlogic.tech/" target="_blank">SoundLogic.tech</a>.​</p>
         </section>
 <hr>
     
