@@ -3,12 +3,6 @@ layout: default
 title: Portfolio - Tyler Groat
 ---
 
-<nav>
-Jump to: <a href="#project1">Project 1</a> <a href="#project2">Project 2</a> <a href="#aboutme">About Me</a>
-</nav>
-<h1>Portfolio - Tyler Groat</h1>
-<a href="https://github.com/tylergroat" target="_blank">My GitHub Account: @tylergroat</a>
-
 <section id="project1">
         <h2>Project 1 - Recipeal</h2>
         <!-- make the view on github link a button the same as the ones in the header -->
