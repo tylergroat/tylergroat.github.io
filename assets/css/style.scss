@@ -4,26 +4,58 @@
 @import "jekyll-theme-cayman";
 
 .gradient-wrap {
-    background-image: linear-gradient(120deg, #155799, #159957);
-    display: inline-block;
-    border-radius: 0.3rem;
-    margin-bottom: 1rem;
-    padding: 0;
-  }
-  
-  .gradient-wrap .btn {
-    margin: 0;
-    background-color: transparent;
-    color: rgba(255, 255, 255, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 0.3rem;
-    padding: 0.75rem 1.25rem;
-    display: inline-block;
-  }
-  
-  .gradient-wrap .btn:hover {
-    color: rgba(255, 255, 255, 0.8);
-    border-color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-  
+  background-image: linear-gradient(120deg, #155799, #159957);
+  display: inline-block;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.gradient-wrap .btn {
+  margin: 0;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 0.3rem;
+  padding: 0.75rem 1.25rem;
+  display: inline-block;
+}
+
+.gradient-wrap .btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Collapsible inline toggle styles */
+details.project-toggle {
+  display: inline;
+}
+
+details.project-toggle summary {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-left: 1rem;
+  color: #0366d6;
+  position: relative;
+  padding-left: 1.2em;
+}
+
+details.project-toggle summary::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(0deg);
+  transition: transform 0.2s ease;
+}
+
+details.project-toggle[open] summary::before {
+  transform: rotate(90deg);
+}
+
+details.project-toggle summary:hover {
+  text-decoration: underline;
+}
